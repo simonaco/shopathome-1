@@ -1,0 +1,16 @@
+{
+    "configurations": {
+      "static": {
+        "context": "./dist/angular-app",
+        "swaConfigLocation": "./src/assets",
+        "apiLocation": "http://localhost:7071"
+      },
+      "devserver": {
+        "context": "http://localhost:4200",
+        "run": "npm run start",
+        "swaConfigLocation": "./src/assets",
+        "apiLocation": "../api"
+      }
+    }
+  }
+  
