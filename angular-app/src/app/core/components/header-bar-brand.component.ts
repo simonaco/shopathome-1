@@ -15,9 +15,9 @@ import { Component } from '@angular/core';
       <a class="navbar-item nav-home" router-link="/">
         <span class="brand-first">SHOP</span>
         <span class="brand-second">AT</span>
-        <span class="brand-third">HOME</span>
+        <span class="brand-third">HOME-branch</span>
       </a>
     </div>
   `,
 })
-export class HeaderBarBrandComponent {}
+export class HeaderBarBrandComponent { }
